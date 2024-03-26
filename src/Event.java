@@ -83,8 +83,4 @@ public class Event {
         return eventID+" "+eventName+" "+eventLocation+" "+pointOfContact+" "+eventCost+" "+totalParticipants+" "+totalEventDays+" ";
     }
 
-    public void calculateEventCost(){
-        this.eventCost=eventCost+(eventCost*tax)+insuranceCost;
-    }
-
 }
